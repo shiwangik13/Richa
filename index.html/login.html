@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript">
+		function validateform(){
+			alert("login successfully");
+		}
+	</script>
+</head>
+<body>
+<div id="back-div">
+		
+</div>
+<form name="form" action="" method="post">
+	<label class="label"><i class="fa fa-sign-in" style="font-size:24px">&nbsp;Username</i></label>
+	<input type="text" name="user" placeholder="your user name" class="input" required="">
+	<br><br>
+	<label class="label"><i class="fa fa-lock" style="font-size:24px"> &nbsp;Password</i></label>
+	<input type="password" name="pass" placeholder="your password" class="input" required="">
+	<br>
+	<input type="submit" name="login" id="login_btn" value="Login" onclick= "return validateform()">
+	<input type="reset" name="submit" id="reset_btn" value="Reset">
+</form>
+<div id="list-div">
+</div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+#back-div{
+	background-image: url("https://image.shutterstock.com/image-photo/image-260nw-1012744237.jpg");
+	height: 612px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+form{
+	
+	display: block;
+	padding-top: 8%;
+	padding-bottom: 10%;
+	margin-top: -40%;
+	margin-left: 10%;
+	margin-right:60%;
+	line-height: 2em;
+	border-radius: 5px;
+}
+.label{
+	font-size: 25px;
+	margin-left: 10%;
+	font-family: monospace;
+}
+.input{
+	border: none; 
+	padding-top: 15px; 
+	padding-bottom: 10px;
+	padding-left: 15px;
+	background-color: #ffdd32;
+}
+#login_btn{
+	height: 45px;
+	width: 80px;
+	margin-top: 20%;
+	margin-left: 28%;
+	background-color: black;
+	color: white;
+	border-radius: 8px;
+	border: none;
+	cursor: pointer;
+}
+#login_btn:hover{
+	background-color: white;
+	color: black;
+}
+#reset_btn{
+	height: 45px;
+	width: 80px;
+	margin-top: 20%;
+	margin-left: 5%;
+	background-color: white;
+	border-radius: 8px;
+	border: none;
+	cursor: pointer;
+}
+#reset_btn:hover{
+	background-color: black;
+	color: white;
+}
+#list-div{
+  box-sizing: border-box;
+  height: 75%;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f5f5f5;
+  color: black;
+  overflow-x: hidden;
+  margin-top: 6.4%;
+  margin-left: 45%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: left;
+  font-size: 22px;
+}
